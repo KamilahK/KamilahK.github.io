@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8">
+    <style type="text/css">
+        header {
+            margin: 0px;
+            padding: 50px;
+            max-width: 100%;
+            background: teal;
+            box-shadow: 10px 10px 30px black;
+        }
+        
+        #headerContent {
+            margin: 0px auto;
+            width: 960px;
+            max-width: 100%;
+        }
+        
+        #title {
+            font-size: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+        
+        #buttons {
+            top: 350px;
+            position: relative;
+        }
+        
+        #headings {
+            color: teal;
+            text-align: center;
+        }
+        
+        footer {
+            margin: 0px;
+            padding: 0px;
+            max-width: 100%;
+            background: teal;
+            box-shadow: 10px 10px 30px black;
+            color: white;
+        }
+        
+        a:link.button,
+        a:visited.button {
+            background-color: teal;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover.button,
+        a:active.button {
+            background-color: black;
+        }
+        
+        body {
+            background-color: #fff;
+            max-width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            align-content: center;
+        }
+        
+        nav {
+            text-align: center;
+            color: #fff;
+        }
+        
+        th,
+        td {
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        table {
+            margin: 0 auto;
+        }
+        
+        a:link {
+            color: white;
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: white;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color: black;
+            text-decoration: none;
+        }
+        
+        a:active {
+            color: gray;
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+
+
+<br/>
+
+
+<body>
+    <div class="container">
+
+        <header>
+            <div id="headerContent">
+
+                <h1 id="title">
+	     KAMILAH
+	    </h1>
+
+                <nav>
+                    <a href="Index.html">Home</a> |
+                    <a href="Portfolio.html">Portfolio</a> |
+                    <a href="Resume.html">Resume</a> |
+                    <a href="Inquiries.html">Inquiries</a>
+                </nav>
+
+            </div>
+        </header>
+
+        <h1 id="headings">Contact Me</h1>
+
+        <table style="padding: 50px 0px 0px 0px;">
+            <tr>
+                <td>First Name: </td>
+                <td><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="text" email="email"></td>
+            </tr>
+            <tr>
+                <td>Best Form of Contact: </td>
+                <td><input type="radio" name="gender" value="male" checked> Email<br>
+                <input type="radio" name="gender" value="female"> Phone<br>
+                <input type="radio" name="gender" value="other"> Both</td>
+            </tr>
+            <tr>
+                <td>Service: </td>
+                <td><input type="checkbox" name="service" value="Web Design">Web Design<br>
+                <input type="checkbox" name="service" value="Logo Design">Logo Design</td>
+            </tr>
+            <tr> <td>Comments: </td>
+                <td><textarea rows="4" cols="50" name="comment" form="usrform">
+                    Enter Commments here.</textarea> </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+
+       
+           
+        <br/>
+
+        <footer>
+            <table>
+                <tr>
+                    <td>
+                        Copyright 2016 © Kamilah Kiser
+                    </td>
+                </tr>
+            </table>
+        </footer>
+
+    </div>
+</body>
+
+</html>
