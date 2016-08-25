@@ -4,8 +4,6 @@
 <head>
     <meta content="text/html; charset=UTF-8">
     <style type="text/css">
-        
-        
         header {
             margin: 0px;
             padding: 50px;
@@ -30,6 +28,11 @@
         #buttons {
             top: 350px;
             position: relative;
+        }
+        
+        #headings {
+            color: teal;
+            text-align: center;
         }
         
         footer {
@@ -117,50 +120,59 @@
 	    </h1>
 
                 <nav>
-                    <a href="Index.html">Home</a> |
-                    <a href="Portfolio.html">Portfolio</a> |
-                    <a href="Resume.html">Resume</a> |
-                    <a href="Inquiries.html">Inquiries</a>
+                    <a href="index.html">Home</a> |
+                    <a href="portfolio.html">Portfolio</a> |
+                    <a href="resume.html">Resume</a> |
+                    <a href="inquiries.html">Inquiries</a>
                 </nav>
 
             </div>
         </header>
 
+        <h1 id="headings">Contact Me</h1>
 
-        <table>
+        <table style="padding: 50px 0px 0px 0px;">
             <tr>
-                <td align="right" style="width:50%;"><img src="selfie.jpg" style="width: 350px;"></img>
-                </td>
-                <td style="width:50%;">
-                    <p>Hey! I'm Kamilah but some people call me Kam. I am pursuing my BS in Information Technology with a concentration in digital media. Born and raised in the beautiful “Peach State”, SWEET tea and soul food are my kryptonite. I love music
-                        festivals, hanging out with my friends, catching a movie, and binging on random netflix series. I’m pescetarian. And those of you who love to ask “What's that?!” It means I don’t eat land meat aka chicken, turkey, pork, beef, or
-                        any other furry or feathery creatures. I live with a adorable ball of fur I like to call Kariboo. She’s a spoiled little Holland Lop with a whole bunch of attitude but if you rub her back she’ll be your best friend. </p>
-                </td>
+                <td>First Name: </td>
+                <td><input type="text" name="firstname"></td>
+            </tr>
+            <tr>
+                <td>Last Name: </td>
+                <td><input type="text" name="lastname"></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="text" email="email"></td>
+            </tr>
+            <tr>
+                <td>Best Form of Contact: </td>
+                <td><input type="radio" name="gender" value="male" checked> Email<br>
+                <input type="radio" name="gender" value="female"> Phone<br>
+                <input type="radio" name="gender" value="other"> Both</td>
+            </tr>
+            <tr>
+                <td>Service: </td>
+                <td><input type="checkbox" name="service" value="Web Design">Web Design<br>
+                <input type="checkbox" name="service" value="Logo Design">Logo Design</td>
+            </tr>
+            <tr> <td>Comments: </td>
+                <td><textarea rows="4" cols="50" name="comment" form="usrform">
+                    Enter Commments here.</textarea> </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="2"><input type="submit" value="Submit"></td>
             </tr>
         </table>
 
-
-
-        <table>
-            <tr>
-                <td>
-                    <a class="button" href="Portfolio.html">Portfolio</a>
-                </td>
-                <td>
-                    <a class="button" href="Resume.html">Resume</a>
-                </td>
-                <td>
-                    <a class="button" href="Inquiries.html">Inquiries</a>
-                </td>
-            </tr>
-        </table>
-
+       
+           
+        <br/>
 
         <footer>
             <table>
                 <tr>
                     <td>
-                       Copyright 2016 © Kamilah Kiser
+                        Copyright 2016 © Kamilah Kiser
                     </td>
                 </tr>
             </table>
@@ -168,11 +180,5 @@
 
     </div>
 </body>
-
-
-
-
-
-
 
 </html>
